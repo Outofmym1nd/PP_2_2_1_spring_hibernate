@@ -24,11 +24,6 @@ public class Car {
         this.series = series;
     }
 
-//    @OneToOne(fetch = FetchType.LAZY)
-//    @MapsId
-//    @JoinColumn(name = "id")
-//    private User user;
-
     public Long getId() {
         return id;
     }
