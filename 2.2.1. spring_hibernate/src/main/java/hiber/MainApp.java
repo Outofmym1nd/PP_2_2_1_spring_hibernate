@@ -47,13 +47,13 @@ public class MainApp {
             System.out.println();
         }
 
-        System.out.println(userService.getUserByCar(car1));
+        System.out.println(userService.getUserByCar("BMW", 5));
         System.out.println();
-        System.out.println(userService.getUserByCar(car2));
+        System.out.println(userService.getUserByCar("Toyota", 30));
         System.out.println();
-        System.out.println(userService.getUserByCar(car3));
+        System.out.println(userService.getUserByCar("LADA", 12));
         System.out.println();
-        System.out.println(userService.getUserByCar(car4));
+        System.out.println(userService.getUserByCar("Mercedes", 63));
 
         context.close();
     }
